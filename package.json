@@ -21,7 +21,8 @@
     "test:integration": "jest --selectProjects integration",
     "lint:arch": "depcruise src --config .dependency-cruiser.js",
     "prepare": "husky",
-    "lint:check": "eslint \"{src,test}/**/*.ts\""
+    "lint:check": "eslint \"{src,test}/**/*.ts\"",
+    "lint:tests": "node scripts/check-test-names.mjs test"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
