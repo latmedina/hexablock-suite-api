@@ -1,0 +1,7 @@
+# Review ownership per module. See docs/agents/README.md for the module map.
+# Later rules win over earlier ones.
+
+*                       @luisloaiza2 @latmedina
+/src/domain/            @luisloaiza2 @latmedina
+/src/application/       @luisloaiza2 @latmedina
+/.github/               @luisloaiza2 @latmedina
